@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/recycler_border_style">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="35dp"
+            android:text="Hall Name"
+            android:textColor="#1B324E"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtlechallName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="250dp"
+            android:text="Hall 14"
+            android:textColor="#A9B3C5"
+            android:textSize="15sp"
+            android:layout_marginStart="200dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="75dp"
+            android:text="Batch"
+            android:textColor="#1B324E"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/stdBatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="250dp"
+            android:text="HDSE192.F"
+            android:textColor="#A9B3C5"
+            android:textSize="15sp"
+            android:layout_marginStart="200dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="115dp"
+            android:text="Date"
+            android:textColor="#1B324E"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtBookingdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="250dp"
+            android:text="21-03-2021"
+            android:textColor="#A9B3C5"
+            android:textSize="15sp"
+            android:layout_marginStart="200dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="155dp"
+            android:text="Time"
+            android:textColor="#1B324E"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtBookingtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="250dp"
+            android:text="09:00 - 12:00"
+            android:textColor="#A9B3C5"
+            android:textSize="15sp"
+            android:layout_marginStart="200dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474464412744",
+    "project_id": "lecturerportal-mobile",
+    "storage_bucket": "lecturerportal-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474464412744:android:7cddb1687e92627890e47d",
+        "android_client_info": {
+          "package_name": "lk.nibm.lecturerportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474464412744-7l5a7rf0s5g6ii3o219cng4c150osb8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2vNUTpcoHl7PaeDSh2OE8Yb7R0lUlsfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474464412744-7l5a7rf0s5g6ii3o219cng4c150osb8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

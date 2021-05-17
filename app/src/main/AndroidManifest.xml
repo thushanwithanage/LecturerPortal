@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lk.nibm.lecturerportal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LecturerPortal">
+        <activity android:name=".ViewAttendance" android:screenOrientation="portrait"/>
+        <activity android:name=".Attendance" android:screenOrientation="portrait"/>
+        <activity android:name=".ForthFloor" android:screenOrientation="portrait"/>
+        <activity android:name=".ThirdFloor" android:screenOrientation="portrait"/>
+        <activity android:name=".SecondFloor" android:screenOrientation="portrait"/>
+        <activity android:name=".FirstFloor" android:screenOrientation="portrait" />
+        <activity android:name=".GroundFloor" android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityColombo" android:screenOrientation="portrait"/>
+        <activity android:name=".MapHome" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ViewHalls"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RequestHall"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AssignedHalls"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
